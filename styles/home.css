@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  background-color: #eff6f0;
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  margin-top: 20px;
+}
+.header img {
+  width: 220px;
+  cursor: pointer;
+}
+
+.Sign-btn {
+  cursor: pointer;
+  padding: 17px 40px;
+  background: none;
+  border: none;
+  background-color: #7eb685;
+  border-radius: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.btn-box {
+  background-color: #7eb685;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  margin-right: 100px;
+}
+.active {
+  border-bottom: 2px solid white !important;
+}
+.btn-1:hover {
+  border-bottom: 2px solid white;
+  border-right: none;
+  border-top: none;
+  border-left: none;
+}
+.btn-1 {
+  cursor: pointer;
+  margin: 10px 30px;
+  border: none;
+  background: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.brek-line {
+  color: white;
+  font-size: larger;
+  background: none;
+}
+.hero-sec {
+  margin-top: 100px;
+  display: flex;
+}
+.left-sec {
+  margin-left: 90px;
+  display: flex;
+  flex-direction: column;
+}
+.left-sec h1 {
+  font-size: 63px;
+}
+.left-sec p {
+  font-size: 19px;
+}
+.left-sec span {
+  color: #4a8251;
+}
+.left-sec button {
+  cursor: pointer;
+  margin: 40px 0px;
+  width: 145px;
+  padding: 13px 30px;
+  border-radius: 200px;
+  background-color: #7eb685;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+.left-sec img {
+  width: 200px;
+  cursor: pointer;
+}
+.right-sec {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.woman-pic {
+  position: absolute;
+  left: 107px;
+  background: none;
+  border-top-left-radius: 220px;
+}
+.Ellipse {
+  position: absolute;
+  left: 92px;
+}
+.dots {
+  position: absolute;
+  left: 479px;
+  bottom: 180px;
+  background: none;
+}
+.what-sec {
+  margin-top: 120px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.what-sec h3 {
+  color: #5e9064;
+  font-size: 20px;
+}
+.what-sec h2 {
+  font-size: 40px;
+}
+.Carts-parent {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  padding: 0px 20px
+}
+.Carts-child:hover {
+  scale: 1.1;
+}
+
+.Carts-child {
+  padding: 40px;
+  background-color: #deede0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 50px;
+  box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.1);
+  
+}
+.Carts-child img {
+  background: none;
+  cursor: pointer;
+}
+.Carts-child h2 {
+  margin-top: 20px;
+  background: none;
+}
+.carts-father {
+  display: flex;
+  justify-content: space-around;
+}
+.img-dots-1 {
+  position: absolute;
+  bottom: 360px;
+  right: 230px;
+}
+.cart-1 {
+  width: 259px;
+  background-color: #cfe4d2;
+  border-radius: 10px;
+  padding: 40px;
+  position: relative;
+}
+
+.para {
+  margin-top: 30px;
+  background: none;
+  font-size: 29px;
+  color: #2f2e41;
+}
+.cart-1 img {
+  background: none;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+.cart-1 h2 {
+  background: none;
+  font-size: 25px;
+  text-align: center;
+}
+.prob-lem {
+  padding-top: 65px;
+}
+.last-sec {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 800px;
+  padding: 20px 0px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.05);
+  margin: 70px 190px;
+}
+.last-sec h1 {
+  background: none;
+}
+
+.last-sec button:hover {
+  scale: 1.1;
+}
+.last-sec button {
+  cursor: pointer;
+  padding: 10px 30px;
+  background-color: #7eb685;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* <!-- Note: I didn't use resposive website i need some stime understand it --> */
